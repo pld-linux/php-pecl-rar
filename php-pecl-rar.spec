@@ -2,7 +2,7 @@
 %define		_status		alpha
 
 Summary:	%{_modname} - read rar archives
-Summary(pl):	%{_modname} - odczyt archiwum rar
+Summary(pl):	%{_modname} - odczyt archiwów rar
 Name:		php-pecl-%{_modname}
 Version:	0.1
 Release:	1
@@ -10,7 +10,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	72bc7e96665dd86d0b8090ff5402942a
-URL:		http://pecl.php.net/package/Modname/
+URL:		http://pecl.php.net/package/rar/
 BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
@@ -22,14 +22,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Rar is a powerful and effective archiver, which was created by Eugene
-Roshal and became rather popular quite fast.  This extension gives you
+Roshal and became rather popular quite fast. This extension gives you
 possibility to read Rar archives.
 
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
 Rar to potê¿ny i wydajny archiwizator. Zosta³ stworzony przez Eugene
-Roshala i szybko zdoby³ popularno¶æ. Z pomoc± tego rozszerzenie
+Roshala i szybko zdoby³ popularno¶æ. Z pomoc± tego rozszerzenia
 mo¿liwy jest odczyt archiwów Rar.
 
 To rozszerzenie ma w PECL status: %{_status}.
