@@ -5,7 +5,7 @@ Summary:	%{_modname} - read rar archives
 Summary(pl):	%{_modname} - odczyt archiwów rar
 Name:		php-pecl-%{_modname}
 Version:	0.1
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
@@ -62,5 +62,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc %{_modname}-%{version}/{CREDITS,README.txt}
+%doc %{_modname}-%{version}/CREDITS
 %attr(755,root,root) %{extensionsdir}/%{_modname}.so
