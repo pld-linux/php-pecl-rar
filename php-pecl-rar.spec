@@ -2,15 +2,16 @@
 %define		_status		alpha
 %define		_sysconfdir	/etc/php
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
+
 Summary:	%{_modname} - read rar archives
 Summary(pl):	%{_modname} - odczyt archiwów rar
 Name:		php-pecl-%{_modname}
-Version:	0.2
-Release:	5
+Version:	0.3.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	9d79f80d11a9deb915219a41850c5071
+# Source0-md5:	952921aa53a1fe5e049c2dc3ed551761
 URL:		http://pecl.php.net/package/rar/
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.254
