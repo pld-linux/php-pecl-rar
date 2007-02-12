@@ -1,7 +1,7 @@
 %define		_modname	rar
 %define		_status		beta
 Summary:	%{_modname} - read rar archives
-Summary(pl):	%{_modname} - odczyt archiwów rar
+Summary(pl.UTF-8):   %{_modname} - odczyt archiwÃ³w rar
 Name:		php-pecl-%{_modname}
 Version:	0.3.1
 Release:	2
@@ -24,10 +24,10 @@ possibility to read Rar archives.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-Rar to potê¿ny i wydajny archiwizator. Zosta³ stworzony przez Eugene
-Roshala i szybko zdoby³ popularno¶æ. Z pomoc± tego rozszerzenia
-mo¿liwy jest odczyt archiwów Rar.
+%description -l pl.UTF-8
+Rar to potÄ™Å¼ny i wydajny archiwizator. ZostaÅ‚ stworzony przez Eugene
+Roshala i szybko zdobyÅ‚ popularnoÅ›Ä‡. Z pomocÄ… tego rozszerzenia
+moÅ¼liwy jest odczyt archiwÃ³w Rar.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
