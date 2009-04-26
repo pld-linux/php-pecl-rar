@@ -1,11 +1,11 @@
 %define		_modname	rar
-%define		_status		beta
+%define		_status		stable
 Summary:	%{_modname} - read rar archives
 Summary(pl.UTF-8):	%{_modname} - odczyt archiwów rar
 Name:		php-pecl-%{_modname}
 Version:	1.0.0
 Release:	1
-License:	PHP 2.02
+License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	03c929a38cc012eab839e6f0631f99e7
