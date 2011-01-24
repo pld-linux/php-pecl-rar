@@ -10,6 +10,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	2bbd2fbcd7a08089e40191bb96181736
 URL:		http://pecl.php.net/package/rar/
+BuildRequires:	libstdc++-devel
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.344
 %{?requires_php_extension}
